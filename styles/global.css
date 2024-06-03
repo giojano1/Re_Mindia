@@ -156,6 +156,9 @@ body {
   font-family: "Noto Sans Georgian", sans-serif;
 }
 
+body {
+  background-color: black;
+}
 body header {
   background-color: black;
 }
@@ -174,4 +177,11 @@ body header .header_container .header_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+body header .underLine {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #979797;
+  height: 1px;
 }/*# sourceMappingURL=global.css.map */

@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   header {
     background-color: black;
     .header_container {
@@ -17,6 +18,13 @@ body {
         justify-content: space-between;
         align-items: center;
       }
+    }
+    .underLine {
+      max-width: 1110px;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #979797;
+      height: 1px;
     }
   }
 }
