@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: red;
+
+  .main-section {
+    font-size: 50px;
+    .navBar {
+      text-align: center;
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          color: $main-bg-color;
+        }
+      }
+    }
+  }
+}
