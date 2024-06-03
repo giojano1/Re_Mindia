@@ -154,4 +154,24 @@ button {
 }
 body {
   font-family: "Noto Sans Georgian", sans-serif;
+}
+
+body header {
+  background-color: black;
+}
+body header .header_container {
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+body header .header_container .header_content {
+  max-width: 1110px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=global.css.map */

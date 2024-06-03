@@ -1,0 +1,22 @@
+body {
+  header {
+    background-color: black;
+    .header_container {
+      max-width: 1440px;
+      height: 100px;
+      margin: 0 auto;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+
+      .header_content {
+        max-width: 1110px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
