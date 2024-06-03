@@ -146,4 +146,12 @@ table {
 
 button {
   cursor: pointer;
+}
+
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: url("../../assets/fonts/NotoSansGeorgian-VariableFont_wdth,wght.ttf");
+}
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
 }/*# sourceMappingURL=global.css.map */
